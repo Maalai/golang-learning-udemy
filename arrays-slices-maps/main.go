@@ -17,14 +17,14 @@ func main() {
 
 	userNames = append(userNames, "H")
 
-	// fmt.Println(userNames)
+	fmt.Println(userNames)
 
 	courseRatings := make(floatMap, 2)
 
 	courseRatings["Go"] = 5.0
 	courseRatings["React"] = 5.0
 
-	// courseRatings.output()
+	courseRatings.output()
 
 	for index, value := range userNames {
 		fmt.Println(index, value)
